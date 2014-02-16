@@ -2,7 +2,7 @@ FROM ubuntu:13.10
 MAINTAINER Zaiste <oh [at] zaiste.net>
 
 RUN apt-get update
-RUN apt-get -y install wget
+RUN apt-get -y install wget git
 
 RUN apt-get install -q -y openjdk-7-jre-headless && apt-get clean
 
