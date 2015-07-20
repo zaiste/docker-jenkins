@@ -1,4 +1,4 @@
-FROM ubuntu:13.10
+FROM buildpack-deps
 MAINTAINER Zaiste <oh [at] zaiste.net>
 
 RUN apt-get update \
