@@ -21,7 +21,7 @@ following plugins:
 Usage
 -----
 
-    docker run -d -t zaiste/jenkins
+    docker run -d -t -p 8080:8080 -v ${PWD}:/var/lib/jenkins zaiste/jenkins
 
 Building
 --------
@@ -34,4 +34,11 @@ Get a Docker image from Docker index
 
     docker pull zaiste/jenkins
 
+Testing
+-------
 
+Install [docker-test](https://github.com/wblankenship/docker-test)
+
+From within the clone repo
+
+    docker-test
