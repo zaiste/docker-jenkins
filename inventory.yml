@@ -1,4 +1,4 @@
 images:
-  - name: wblankenship/jenkins
+  - name: zaiste/jenkins
     path: "./"
     test: ["./tests/jenkins"]
